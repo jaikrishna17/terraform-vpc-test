@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket = "jks-remote-state"
-    key    = "expense-vpc"
+    key    = "expense1-vpc"
     region = "us-east-1"
     dynamodb_table = "jks-locking"
   }
